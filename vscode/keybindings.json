@@ -1,0 +1,41 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "alt+g",
+        "command": "workbench.view.scm",
+        "when": "workbench.scm.active"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.view.scm",
+        "when": "workbench.scm.active"
+    },
+    {
+        "key": "alt+4",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active && terminalFocus"
+    },
+    {
+        "key": "alt+f12",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active && terminalFocus"
+    },
+    {
+        "key": "alt+4",
+        "command": "workbench.action.terminal.focus",
+        "when": "terminalHasBeenCreated && !terminalFocus || terminalProcessSupported && !terminalFocus"
+    },
+    {
+        "key": "alt+f12",
+        "command": "-workbench.action.terminal.focus",
+        "when": "terminalHasBeenCreated && !terminalFocus || terminalProcessSupported && !terminalFocus"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+f4",
+        "command": "-workbench.action.closeActiveEditor"
+    }
+]
