@@ -8,7 +8,7 @@
 
 
 .mtk3 {
-    font-family: 'Monaspace Radon', monospace !important;
+    font-family: 'JetBrains Mono', monospace !important;
     color: #008c7d !important;
 }
 
@@ -39,16 +39,11 @@
     border: 0px !important;
 }
 
-.monaco-sash.vertical {
-    /* width: 0 !important; */
-}
-
 /* File Explorer Selected Item */
 .monaco-list.list_id_1 .monaco-list-row.selected {
-    background-color: #4f5971 !important;
+    background-color: #6e6e6e00 !important;
     opacity: 1 !important;
-    border-top: 1px #727b90 solid;
-    border-bottom: 1px #727b90 solid;
+    border: 1px #727b90 solid;
 }
 
 /* List item label name */
